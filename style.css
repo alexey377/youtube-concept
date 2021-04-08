@@ -6,8 +6,9 @@ box-sizing: border-box;
 
 body {
 
-font-family: Arial, Helvetica, sans-serif;
-
+font-family: 'Mulish', sans-serif;
+font-size: 16px;
+font-weight: 400px;
 }
 
 .header {
@@ -17,6 +18,7 @@ font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
     padding-left: 32px;
     padding-right: 70px;
+    margin-bottom: 30px;
 }
 
 .menu-button {
@@ -70,6 +72,8 @@ padding-left: 23px;
 padding-top: 12px;
 padding-bottom: 12px;
 padding-right: 23px;
+width: 100%;
+text-decoration: none;
 
 }
 .button-search {
@@ -121,5 +125,84 @@ margin-right: 50px;
 border-radius: 50%;
 
 }
+
+.nav-item {
+    list-style-type: none;
+}
+
+.sidebar {
+    padding-left: 32px;
+}
+
+.nav-menu {
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding-left: 0;
+}
+.nav-item {
+
+margin-bottom: 28px;
+
+}
+
+.nav-link {
+display: flex;
+align-items: center;
+color: #898989;
+text-decoration: none;
+
+}
+
+.nav-link:hover {
+
+color: #ff0000;
+
+}
+
+.nav-link:hover .icon {
+fill: #ff0000;
+
+}
+
+.nav-item .icon {
+fill: #898989;
+}
+
+.nav-text {
+margin-left: 13px;
+
+}
+
+.nav-text1 {
+    margin-left: 10px;
+
+}
+
+.nav-text2 {
+    margin-left: 16px
+
+}
+
+.nav-item .icon-show {
+margin-left: 4px;
+}
+
+.nav-image {
+width: 26px;
+height: 26px;
+border-radius: 50%;
+
+}
+.nav-title {
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+margin-bottom: 30px;
+
+}
+
+
+
+
 
 
